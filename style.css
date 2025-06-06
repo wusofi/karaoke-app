@@ -36,7 +36,7 @@
   }
   .right-panel {
     flex-basis: 25vw;
-    height: 75vh;
+    height: 20vh;
     padding: 15px 20px;
     overflow: hidden;
     background-color: inherit;
