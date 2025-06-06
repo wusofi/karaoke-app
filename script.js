@@ -18,21 +18,8 @@ window.onload = () => {
 
   applySavedTheme();
   loadQueueFromStorage();
+  setupDragAndDrop();
 };
-let isTVMode = false;
-
-// Saat kirim ke TV
-isTVMode = true;
-player.pauseVideo();
-
-// Saat TV kirim videoEnded, kamu bisa reset:
-window.addEventListener('message', (event) => {
-  if (event.data === 'videoEnded') {
-    isTVMode = false;
-    playNextInQueue(); // jika ingin lanjutkan antrean otomatis
-  }
-});
-
 
 
 
