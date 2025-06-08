@@ -1,5 +1,5 @@
 
-  const API_KEY = 'AIzaSyBy-P4a2jedGeHRdporrdQ2vET7V09YwAI'; // Ganti API key kamu
+  const API_KEY = ''; // Ganti API key kamu
   let queue = [];
   let currentVideo = null;
 
